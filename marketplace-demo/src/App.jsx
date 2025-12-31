@@ -1,12 +1,16 @@
 import React from "react";
 import PreBuiltIntegrators from "./components/PreBuiltIntegrators";
 import ApiExplorerSection from "./components/APIExplorer";
+import Keyfatures from "./components/Keyfeatures/Keyfeatures";
+import Rangeofapis from "./components/Rangeofapis/Rangeofapis";
 
 export default function App() {
   return (
     <>
-    <PreBuiltIntegrators />
-    <ApiExplorerSection />
+      <Keyfatures></Keyfatures>
+      <Rangeofapis></Rangeofapis>
+      <PreBuiltIntegrators />
+      <ApiExplorerSection />
     </>
     // <div className="flex items-center justify-center min-h-screen">
 
